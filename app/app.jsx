@@ -6,14 +6,14 @@ var {Route, Router, IndexRoute, hashHistory} = require('react-router');
 var Main = require('Main');
 var Weather = require('Weather');
 var About = require('About');
-var Example = require('Example');
+var Examples = require('Examples');
 
 ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={Main}>
       <IndexRoute component={Weather} />
       <Route path="about" component={About} />
-      <Route path="example" component={Example} />
+      <Route path="example" component={Examples} />
     </Route>
   </Router>,
   document.getElementById('app')
