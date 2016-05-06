@@ -29,7 +29,7 @@ tmp/
 
 # Brunch output folder.
 # public/
-public/bundle.js
+# public/bundle.js
 
 # Bower stuff.
 bower_components/
