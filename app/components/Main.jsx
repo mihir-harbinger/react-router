@@ -5,8 +5,11 @@ module.exports = (props) => {
   return(
     <div>
       <Navigation />
-      <h1>Main Component</h1>
-      {props.children}
+      <div className="row">
+        <div className="columns medium-6 large-4 small-centered">
+          {props.children}
+        </div>
+      </div>
     </div>
   );
 }
