@@ -39,7 +39,7 @@ module.exports = React.createClass({
 
     function renderErrorModal(){
       if(typeof errorMessage === "string"){
-        return <ErrorModal message={errorMessage} />;
+        return <ErrorModal title={'Something went wrong'} message={errorMessage} />;
       }
     }
 
